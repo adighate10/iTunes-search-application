@@ -1,0 +1,74 @@
+.logo {
+    cursor: pointer;
+    width: 50px;
+    margin: 30px 0;
+  }
+
+  .menu {
+    cursor: pointer;
+    width: 25px;
+    display: none;
+  }
+
+  .navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+
+  .desktop li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  .desktop li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+  }
+
+  .desktop li a:hover{
+    color: #B06AB3;
+  }
+  
+  .mobile{
+        width: 100%;
+        background: linear-gradient(#8D9EFF, #B06AB3);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    .mobile li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+    .mobile li a{
+        color: #fff;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .hide{
+      display: none;
+    }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: App-logo-float infinite 3s ease-in-out;
+    }
+  }
+  
